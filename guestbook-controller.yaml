@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: localhost:5001/guestbook:latest
+        image: cristosl23/guestbook:latest
         ports:
         - name: http-server
           containerPort: 3000
